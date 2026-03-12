@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantu Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init('Q7TLfZhT4vHl0QSrd');
+        })();
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Mantu Kumar</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Mantu Kumar</span></h1>
+                    <h2 class="hero-subtitle">Software Developer | Full-Stack Developer | AI & ML Enthusiast</h2>
+                    <p class="hero-description">Passionate about building innovative solutions and learning new technologies</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="M8_Mantu_Res.pdf" download class="btn btn-secondary">Download CV</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/mantusharma000" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mantu-sharma-5b5459306" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:mantukumar04557@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="MantuK.jpeg" alt="Mantu Kumar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="MantuK.jpeg" alt="Mantu Kumar">
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>2+</h3>
+                            <p>Internships</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>4+</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3 class="about-subtitle">Get to know me!</h3>
+                    <p>I'm a <strong>Computer Science student</strong> at Maharishi Markandeshwar University with a strong passion for <strong>software development</strong> and <strong>machine learning</strong>. I specialize in building intelligent applications, RESTful APIs, and data-driven solutions that solve real-world problems.</p>
+                    <p>With hands-on internship experience at <strong>YBI Foundation</strong> and <strong>BLUESTOCK.in</strong>, I've developed expertise in Python, machine learning algorithms, backend development, and collaborative Agile environments.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Full Stack Development</h4>
+                                <p>Building end-to-end web applications with modern frameworks</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <div>
+                                <h4>Machine Learning</h4>
+                                <p>Creating intelligent solutions using ML algorithms and data science</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Problem Solver</h4>
+                                <p>Passionate about learning new technologies and solving challenges</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skills-bars">
+                    <h3 class="skills-subtitle">Proficiency Levels</h3>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span class="skill-name"><i class="fab fa-python"></i> Python</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-percentage="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span class="skill-name"><i class="fab fa-java"></i> Java</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-percentage="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span class="skill-name"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-percentage="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span class="skill-name"><i class="fas fa-brain"></i> Machine Learning</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-percentage="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span class="skill-name"><i class="fas fa-database"></i> SQL & Databases</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-percentage="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span class="skill-name"><i class="fas fa-code"></i> Django & Flask</span>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-percentage="82"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span class="skill-name"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                            <span class="skill-percentage">87%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-percentage="87"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span class="skill-name"><i class="fas fa-project-diagram"></i> RESTful APIs</span>
+                            <span class="skill-percentage">83%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-percentage="83"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-list">
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-list">
+                        <span>Django</span>
+                        <span>Flask</span>
+                        <span>TensorFlow</span>
+                        <span>Scikit-Learn</span>
+                        <span>OpenCV</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <div class="skill-list">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                        <span>SQLite</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Developer Tools</h3>
+                    <div class="skill-list">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                        <span>Jupyter</span>
+                        <span>PyCharm</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Core Concepts</h3>
+                    <div class="skill-list">
+                        <span>OOP</span>
+                        <span>RESTful APIs</span>
+                        <span>Agile</span>
+                        <span>MVC</span>
+                        <span>DBMS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <span class="experience-date">Oct 2025 - Dec 2025</span>
+                    <h3>Software Development Engineer (SDE) Intern</h3>
+                    <h4>BLUESTOCK.in</h4>
+                    <ul>
+                        <li>Developed and enhanced backend features using Python</li>
+                        <li>Designed and implemented RESTful APIs</li>
+                        <li>Improved code quality through debugging and optimization</li>
+                        <li>Used Git & GitHub for version control</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <span class="experience-date">Jan 2025 - Mar 2025</span>
+                    <h3>Machine Learning & Data Science Intern</h3>
+                    <h4>YBI Foundation</h4>
+                    <ul>
+                        <li>Developed ML models using Python, Scikit-Learn, and TensorFlow</li>
+                        <li>Applied classification, regression, and clustering algorithms</li>
+                        <li>Preprocessed large datasets using Pandas and NumPy</li>
+                        <li>Collaborated in Agile team environment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop" alt="Retail Billing System" class="project-screenshot">
+                    </div>
+                    <h3>Retail Billing System</h3>
+                    <p>A comprehensive retail billing system designed to streamline sales transactions, inventory management, and customer billing processes with an intuitive interface.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fas fa-window-maximize"></i> Tkinter</span>
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fas fa-database"></i> SQLite</span>
+                    </div>
+                    <a href="https://github.com/mantusharma000" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=500&fit=crop" alt="Finance.Ai" class="project-screenshot">
+                    </div>
+                    <h3>Finance.Ai</h3>
+                    <p>An AI-powered financial assistant that provides intelligent insights, expense tracking, and personalized financial recommendations using machine learning algorithms.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fas fa-brain"></i> Machine Learning</span>
+                        <span><i class="fas fa-project-diagram"></i> TensorFlow</span>
+                        <span><i class="fas fa-flask"></i> Flask</span>
+                    </div>
+                    <a href="https://github.com/mantusharma000" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&h=500&fit=crop" alt="Voice Assistant" class="project-screenshot">
+                    </div>
+                    <h3>Voice Assistant Application</h3>
+                    <p>Python-based voice assistant with speech recognition, text-to-speech, and NLP for voice-controlled tasks and system automation.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fas fa-microphone"></i> Speech Recognition</span>
+                        <span><i class="fas fa-language"></i> NLP</span>
+                    </div>
+                    <a href="https://github.com/mantusharma000/VoiceAssistanceApp/tree/Voice" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=800&h=500&fit=crop" alt="Face Recognition" class="project-screenshot">
+                    </div>
+                    <h3>Face Recognition Attendance System</h3>
+                    <p>Real-time attendance system using OpenCV for face recognition with MySQL integration and automated Excel report generation.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fas fa-eye"></i> OpenCV</span>
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fas fa-chart-bar"></i> NumPy</span>
+                    </div>
+                    <a href="https://github.com/mantusharma000/Face-Recognition" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github-stats" class="github-stats">
+        <div class="container">
+            <h2 class="section-title">GitHub Contributions</h2>
+            <div class="github-content">
+                <div class="github-graph">
+                    <img src="https://ghchart.rshah.org/2563eb/mantusharma000" alt="GitHub Contribution Graph" class="contribution-graph">
+                </div>
+                <div class="github-stats-cards">
+                    <img src="https://github-readme-stats.vercel.app/api?username=mantusharma000&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" class="stats-card">
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mantusharma000&theme=tokyonight&hide_border=true" alt="GitHub Streak" class="stats-card">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <h4>Maharishi Markandeshwar (Deemed to be) University</h4>
+                    <p class="education-date">2022 - 2026</p>
+                    <p class="education-detail">CGPA: 7.23 (up to 7th Semester)</p>
+                    <p class="education-location">Mullana, Haryana</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-school"></i></div>
+                    <h3>Senior Secondary (12th Grade)</h3>
+                    <h4>Gaya College</h4>
+                    <p class="education-date">2021 - 2022</p>
+                    <p class="education-detail">Percentage: 68.6%</p>
+                    <p class="education-location">Gaya, Bihar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Java</h3>
+                    <p>Infosys Springboard</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Python</h3>
+                    <p>CoDing Seekho</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>SQL Database</h3>
+                    <p>UniAthena</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>C++ Programming</h3>
+                    <p>TechGig</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info-section">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:mantukumar04557@gmail.com">mantukumar04557@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 8809354334</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Mullana, Haryana, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/mantusharma000" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mantu-sharma-5b5459306" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:mantukumar04557@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-section">
+                    <h3>Send Me a Message</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Mantu Kumar</h3>
+                    <p>Software Developer & ML Enthusiast passionate about building innovative solutions and learning new technologies.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/mantusharma000" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mantu-sharma-5b5459306" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:mantukumar04557@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Get In Touch</h3>
+                    <div class="footer-contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:mantukumar04557@gmail.com">mantukumar04557@gmail.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <strong>Phone:</strong>
+                        <span>+91 8809354334</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <strong>Location:</strong>
+                        <span>Mullana, Haryana, India</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mantu Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
